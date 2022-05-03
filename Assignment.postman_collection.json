@@ -1,0 +1,212 @@
+{
+	"info": {
+		"_postman_id": "62167255-6304-462e-a9f4-d236a97e5ac7",
+		"name": "Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:10569/api/employee/AddEmployeeTerritory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"EmployeeId\":1,\r\n    \"TerritoryId\":\"01581\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:10569/api/employee/AddEmployeeTerritory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "10569",
+					"path": [
+						"api",
+						"employee",
+						"AddEmployeeTerritory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:10569/api/employee/GetEmployees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:10569/api/employee/GetEmployees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "10569",
+					"path": [
+						"api",
+						"employee",
+						"GetEmployees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:10569/api/employee/GetEmployeeDetails/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:10569/api/employee/GetEmployeeDetails/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "10569",
+					"path": [
+						"api",
+						"employee",
+						"GetEmployeeDetails",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:10569/api/employee/addemployee",
+			"protocolProfileBehavior": {
+				"strictSSL": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"FirstName\":\"İlker\",\r\n    \"LastName\":\"Mavili\",\r\n    \"Title\": \"Computer Engineer\",\r\n    \"HireDate\":\"2022-04-28T12:45:15\",\r\n    \"ReportsTo\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:10569/api/employee/addemployee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "10569",
+					"path": [
+						"api",
+						"employee",
+						"addemployee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:10569/api/employee/updateemployee/1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"FirstName\":\"İlker\",\r\n    \"LastName\":\"Mavili\",\r\n    \"Title\": \"Computer Engineer\",\r\n    \"HireDate\":\"2022-04-28T12:45:15\",\r\n    \"ReportsTo\": 5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:10569/api/employee/updateemployee/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "10569",
+					"path": [
+						"api",
+						"employee",
+						"updateemployee",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:10569/api/employee/removeemployee/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:10569/api/employee/removeemployee/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "10569",
+					"path": [
+						"api",
+						"employee",
+						"removeemployee",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:10569/api/employee/GetOrderListOfEmployee/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:10569/api/employee/GetOrderListOfEmployee/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "10569",
+					"path": [
+						"api",
+						"employee",
+						"GetOrderListOfEmployee",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:10569/api/employee/GetTerritories/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:10569/api/employee/GetTerritories/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "10569",
+					"path": [
+						"api",
+						"employee",
+						"GetTerritories",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
